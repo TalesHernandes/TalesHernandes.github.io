@@ -610,7 +610,7 @@ hr {
     }
 }
 
-@media (min-width: 330px) and (max-device-width: 500px) and (min-height: 600px) and (max-device-height: 810px){
+@media (min-width: 330px) and (max-device-width: 500px) and (min-height: 600px) and (max-device-height: 900px){
     footer {
         position: absolute;
         bottom: 0;
