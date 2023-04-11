@@ -1,0 +1,395 @@
+
+/* -- IMPORTS FONTES -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+/* -- RESET -- */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+html, body {
+
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* -- ESTILO BÁSICO -- */
+
+img {
+    transition: opacity 1s ease;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    background-image: url("imagens/fundo_tela1.png");
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+
+}
+
+
+header {
+
+    align-self: flex-start;
+    margin-top: 100px;
+
+}
+
+#logo {
+
+    width: 250px;
+}
+
+article {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+
+       
+
+}
+
+article img {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+#img0 {
+
+    margin-left: -11%;
+    margin-top: 180px;
+    width: 425px;
+    z-index: 0;
+    transition: opacity 1s ease;
+    
+
+
+}
+
+#img1  {
+
+    width: 490px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: -10%;
+    margin-right: -10%;
+    z-index: 0;
+    transition: opacity 1s ease;
+
+
+
+}
+
+#img2 {
+
+    margin-bottom: 90px;
+    width: 335px;
+    z-index: -1;
+    transition: opacity 1s ease;
+
+}
+
+#marca img{
+    
+    margin-left: 50px;
+    opacity: 0.4;
+    width: 480px;
+    z-index: 0;
+
+}
+
+#textos {
+
+    position: relative;
+    margin-top: -52%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 7;
+
+
+}
+
+#textos h1 {
+    
+    margin: 0;
+    width: 75%;
+    font-size: 4.0em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #24242425;
+    z-index: 7;
+
+
+}
+
+#textos p {
+    
+    color: rgba(185, 185, 185, 0.897);
+    width: 70%;
+    font-size: 1.8em;
+    font-weight: 400;
+    z-index: 7;
+
+
+
+}
+
+#botaoiniciar {
+
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(216, 110, 71, 0.918);
+    width: 90%;
+    height: 140px;
+    cursor: pointer;
+    border-radius: 75px;
+    z-index: 7;
+    
+
+}
+
+#botaoiniciar h1 {
+    font-weight: bold;
+    color: rgba(228, 228, 228, 0.89);
+}
+
+#carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divBotao {
+    position: relative;
+    cursor: pointer;
+}
+
+.divBotao:hover {
+    cursor: pointer;
+}
+
+
+.botao {
+    position: relative;
+    margin: 2px;
+    margin-top: 25px;
+    width: 35px;
+    height: 12px;
+    border: none;
+    border-radius: 75px;
+    background-color: rgb(163, 163, 163);
+    z-index: 7;
+}
+  
+
+#gradiente {
+    position: absolute;
+    z-index: 6;
+    bottom: 0;
+    width: 100%;
+    height: 57.5%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14,14,14,0.7175245098039216) 21%, rgba(0,0,0,1) 100%);
+}
+
+/* #blankSpace {
+    width: 100%;
+    height: 10%;
+    display: block;
+} */
+
+/* -- CSS DESKTOP -- */
+
+@media only screen and (min-width: 1200px) {
+
+    body{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(imagens/fundos_teladeskp.png);
+        background-color: black;
+        background-size: cover;
+
+    }
+
+    header {
+        
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        margin: 0;
+        width: 120px;
+    
+    }
+
+    #logo {
+
+        width: 140px;
+    }
+
+    article {
+
+        align-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+
+    }
+
+
+    #img0 {
+        
+        margin: 0;
+        margin-top: 100px;
+        width: 230px;
+
+
+    }
+    
+    #img1  {
+
+        margin: 0;
+        margin-left: -30%;
+        margin-right: -30%;
+        width: 300px;
+    
+    }
+    
+    #img2 {
+
+        margin: 0;
+        margin-top: 70px;
+        width: 185px;
+    
+    }
+
+    #marca img{
+        
+        margin: 0;
+        opacity: 0.3;
+        width: 300px;
+    
+    }
+
+    #textos {
+
+        position: relative;
+        margin: 0;
+        margin-top: -15%;
+        padding: 0;
+    }
+
+    #textos h1 {
+
+        width: 100%;
+        font-size: 2.0em;
+
+    }
+
+    #textos p {
+
+        width: 100%;
+        font-size: 1.0em;
+        font-weight: 200;
+    
+    
+    }
+
+    #botaoiniciar {
+
+        top: 15px;
+        align-self: flex-end;
+        width: 700px;
+        height: 90px;
+    
+    }
+
+    #blankSpace {
+        width: 100%;
+        height: 50px;
+        display: block;
+    }
+    
+    #carrosel {
+
+        width: 75%;
+
+    }
+
+    .botao {
+        
+        margin-top: -10%;
+        width: 35px;
+        height: 12px;
+
+    }
+
+    #gradiente {
+        position: absolute;
+        z-index: 6;
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14, 14, 14, 0.559) 30%, rgba(0, 0, 0, 0.772) 100%);
+    }
+
+}
+
+@media (min-width: 1500px) {
+    #gradiente {
+        position: absolute;
+        z-index: 6;
+        bottom: -10%;
+        width: 100%;
+        height: 70%;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14, 14, 14, 0.559) 30%, rgba(0, 0, 0, 0.772) 100%);
+    }
+}
+
+@media (min-width: 1900px) {
+    #gradiente {
+        position: absolute;
+        z-index: 6;
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14, 14, 14, 0.559) 30%, rgba(0, 0, 0, 0.772) 100%);
+    }
+
+    #blankSpace {
+        display: none;
+    }
+}

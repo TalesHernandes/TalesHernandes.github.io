@@ -5,7 +5,8 @@
 
     <meta charset="UTF-8">
     <title> Financy HomePage </title>
-    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
 
 </head>
 
@@ -17,11 +18,11 @@
     
     <article>
         
-        <img id="imgesq" src="imagens/card3_inativo.png" alt="img1"/>
+        <img id="img0" src="imagens/card3_inativo.png" alt="img0"/>
 
-        <img id="imgcntr" src="imagens/card1_ativo.png" alt="img2"/>
+        <img id="img1" src="imagens/card1_ativo.png" alt="img1"/>
 
-        <img id="imgdir" src="imagens/card2_inativo.png" alt="img3"/> 
+        <img id="img2" src="imagens/card2_inativo.png" alt="img2"/> 
 
 
     </article>
@@ -34,17 +35,24 @@
 
     <article id="textos">
 
-        <h1> Our <span style="color: rgb(233, 115, 72);">  new service </span> mobile app to set your financial plan </h1>
-        <p> Making it possible to perform banking activities anytime and any where using a mobile device</p>
+        <h1 id="texto1"> Our <span style="color: rgb(233, 115, 72);">  new service </span> mobile app to set your financial plan </h1>
+        <p id="parag1"> Making it possible to perform banking activities anytime and any where using a mobile device</p>
 
     </article>
 
     <div id="carrosel">
-         
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-
+        <div class="divBotao" onclick="mudarImg(3)">
+            <button class="botao"></button>
+        </div>
+        <div class="divBotao" onclick="mudarImg(0)">
+            <button class="botao" ></button>
+        </div>
+        <div class="divBotao" onclick="mudarImg(1)">
+            <button class="botao"></button>
+        </div>
+        <div class="divBotao" onclick="mudarImg(2)">
+            <button class="botao"></button>
+        </div>
     </div>
 
 
