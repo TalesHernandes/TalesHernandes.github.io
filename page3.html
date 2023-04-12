@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finanças</title>
+        <link rel="stylesheet" type="text/css" href="stylepage3.css">
+    </head>
+    <body>
+        <header>
+            <div id="voltar_pagina_inicial" onclick="location.href='page2.html';" style="cursor: pointer;">
+                <img src="imagens/back_to.png" alt="back to">
+            </div>
+            <div id=texto_superior><p>Send Money</p></div>
+        </header>
+        <section id="sec1">
+            <div id="rosto">
+                <img class="face_pessoa" src="imagens/icon 1.png"/>
+                <div id="conta">
+                    <h2>Arrlot Jaedin</h2>
+                    <p class="lightgray-text"> **** **** 0344 </p>
+                </div>
+                <div id="dolar">
+                    <p>USD</p>
+                    <img src="imagens/dropdown.png" id="dropdown">
+                </div>
+            </div>
+        </section>
+        <section id="dinheiro">
+            <div id="simbolo_cifrao">
+                <div class="display">
+                    $0.00
+                </div>
+            </div>
+            <hr class="cinza_cor">
+            <p id="laranja_cor"> Your available money is <span id="color-orange">$8,666.60</span></p>
+        </section>
+        <div class="numpad">
+            <button class="number-btn" data-value="1">1</button>
+            <button class="number-btn" data-value="2">2</button>
+            <button class="number-btn" data-value="3">3</button>
+            <button class="number-btn" data-value="4">4</button>
+            <button class="number-btn" data-value="5">5</button>
+            <button class="number-btn" data-value="6">6</button>
+            <button class="number-btn" data-value="7">7</button>
+            <button class="number-btn" data-value="8">8</button>
+            <button class="number-btn" data-value="9">9</button>
+            <button class="number-btn" data-value="00">00</button>
+            <button class="number-btn" data-value="0">0</button>
+            <button class="delete-btn"><img src="imagens/back_arrow.png" id="arrowButton"></button>
+        </div>
+        <div id="clicar" onclick="location.href='page2.html';" style="cursor: pointer;">
+            <p>Send Money</p>
+        </div>
+    </body>
+    <script type="text/javascript" src="scriptpage3.js"></script>
+</html>
